@@ -1,4 +1,4 @@
-import { Card, CardContent } from '../components/ui/card';
+import { Card, CardContent } from "../components/ui/card";
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
         <Card>
           <CardContent className="p-6">
             <p className="text-lg leading-relaxed">
-              I'm a passionate Full Stack Developer with expertise in building scalable web applications.
+              I am a passionate Full Stack Developer with expertise in building scalable web applications.
               With a strong foundation in both frontend and backend technologies, I create elegant
               solutions to complex problems. My approach combines clean code practices with modern
               development tools to deliver high-quality software that makes a difference.

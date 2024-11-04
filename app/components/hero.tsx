@@ -1,5 +1,5 @@
 "use client";
-import { ArrowDownIcon, Github, Linkedin, Terminal } from "lucide-react";
+import { ArrowDownIcon, Github, Linkedin} from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "../components/ui/button";
 const resumePath = "/resume.pdf";
@@ -67,7 +67,7 @@ export default function Hero() {
       className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden"
     >
       <div className="absolute inset-0">
-        {languages.map((lang, i) => (
+        {languages.map((lang) => (
           <motion.div
             key={lang}
             className="absolute text-green-500 text-opacity-30 font-mono"
