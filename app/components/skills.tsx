@@ -3,15 +3,15 @@ import { Badge } from '../components/ui/badge';
 
 const skills = {
   Frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux'],
-  Backend: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL'],
+  Backend: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL','Hono.js'],
   DevOps: ['Docker', 'AWS', 'CI/CD', 'Git', 'Linux'],
-  Tools: ['VS Code', 'Postman', 'Figma', 'Jest', 'MongoDB'],
+  Tools: ['VS Code', 'Postman', 'Figma', 'Jest', 'MongoDB','Prisma'],
 };
 
 export default function Skills() {
   return (
     <section id="skills" className="py-20">
-      <div className="container px-4">
+      <div className="container px-14">
         <h2 className="text-3xl font-bold mb-12 text-center gradient-text animate-pulse-slow">Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {Object.entries(skills).map(([category, items], index) => (
