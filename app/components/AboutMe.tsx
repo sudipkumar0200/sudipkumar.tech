@@ -38,7 +38,7 @@ export default function AboutMe2() {
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-xl">
-                  <h3 className="font-bold">Year of Birth</h3>
+                  <h3 className="font-bold">Birth year</h3>
                   <p className="text-sm text-gray-500">2005</p>
                 </div>
                 <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-xl">
