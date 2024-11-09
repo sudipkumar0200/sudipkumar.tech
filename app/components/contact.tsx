@@ -92,13 +92,13 @@ export default function Contact() {
               {
                 icon: MailIcon,
                 title: "Email",
-                content: "sudip.kumar@example.com",
+                content: "sudipkumar0200@gmail.com",
               },
-              { icon: PhoneIcon, title: "Phone", content: "+1 (555) 123-4567" },
+              { icon: PhoneIcon, title: "Phone", content: "+91 9305487360" },
               {
                 icon: MapPinIcon,
                 title: "Location",
-                content: "San Francisco, CA",
+                content: "Lucknow, India",
               },
             ].map((item, index) => (
               <Card
@@ -142,6 +142,7 @@ export default function Contact() {
                     className="bg-background animate-fade-in"
                     style={{ animationDelay: "400ms" }}
                     onChange={handleChange}
+                    autoComplete="on"
                   />
                   <Input
                     type="email"
@@ -151,6 +152,7 @@ export default function Contact() {
                     className="bg-background animate-fade-in"
                     style={{ animationDelay: "500ms" }}
                     onChange={handleChange}
+                    autoComplete="on"
                   />
                 </div>
                 <Input

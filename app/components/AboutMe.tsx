@@ -28,13 +28,10 @@ export default function AboutMe2() {
                 <p className="text-gray-500">Full Stack Developer</p>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                As a passionate MERN stack developer and UI/UX designer, I blend
+                As a passionate PERN stack developer and UI/UX designer, I blend
                 technical expertise with creative design thinking to craft
-                seamless digital experiences. My dual proficiency allows me to
-                bridge the gap between aesthetic appeal and functional
-                implementation, ensuring that applications are not only visually
-                striking but also technically robust. Through my experience with
-                MongoDB, Express.js, React, and Node.js, coupled with my eye for
+                seamless digital experiences.Through my experience with
+                PostreSQL, Express.js, React, and Node.js, coupled with my eye for
                 intuitive user interfaces, I transform concepts into responsive,
                 user-centric solutions that drive engagement and deliver
                 results.
