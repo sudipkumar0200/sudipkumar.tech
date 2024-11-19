@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google';
 import { ThemeProvider } from './components/theme-provider';
 import { Toaster } from './components/ui/sonner';
 import Navigation from './components/navigation';
-import Navigation1 from './components/navigation1';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,8 +26,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* <Navigation /> */}
-          <Navigation1/>
+          
+          <Navigation/>
           {children}
           <Toaster />
         </ThemeProvider>
