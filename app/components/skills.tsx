@@ -10,8 +10,8 @@ const skills = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20">
-      <div className="container px-14">
+    <section id="skills" className="py-20 min-h-screen flex items-center justify-center">
+      <div className="container px-4 lg:px-14">
         <h2 className="text-3xl font-bold mb-12 text-center gradient-text animate-pulse-slow">Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {Object.entries(skills).map(([category, items], index) => (

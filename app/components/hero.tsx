@@ -2,7 +2,7 @@
 import { ArrowDownIcon, Github, Linkedin} from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "../components/ui/button";
-const resumePath = "/resume.pdf";
+const resumePath = "/backendResume.pdf";
 import { motion } from "framer-motion";
 
 const languages = [
@@ -114,7 +114,7 @@ export default function Hero() {
       <div className="container px-4 flex flex-col items-center text-center relative">
         <h1 className="text-7xl font-bold mb-6  text-green-500">
           Full Stack
-          <span className="block text-white">{glitchText}</span>
+          <span className="block text-white text-6xl">{glitchText}</span>
         </h1>
         {/* <Terminal className="w-14 h-14 mx-auto mb-8 animate-bounce  text-green-500" /> */}
         <div

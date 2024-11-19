@@ -43,8 +43,8 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 bg-muted/50">
-      <div className="container px-14">
+    <section id="projects" className="py-20 bg-muted/50 min-h-screen flex items-center justify-center">
+      <div className="container px-4 lg:px-14">
         <h2 className="text-3xl font-bold mb-12 text-center gradient-text animate-pulse-slow">
           Projects
         </h2>

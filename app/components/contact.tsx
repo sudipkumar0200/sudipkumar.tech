@@ -81,8 +81,8 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="py-20">
-      <div className="container px-14">
+    <div id="contact" className="py-20 flex items-center justify-center">
+      <div className="container px-4 lg:px-14">
         <h2 className="text-3xl font-bold mb-12 text-center gradient-text animate-pulse-slow">
           Get in Touch
         </h2>

@@ -9,9 +9,9 @@ export default function AboutMe2() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        className="container mx-auto px-14"
+        className="container mx-auto px-4 py-6 lg:p-0"
       >
-        <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800 rounded-3xl shadow-xl overflow-hidden">
+        <div className="max-w-6xl  bg-white dark:bg-gray-800 rounded-3xl shadow-xl overflow-hidden lg:mx-14">
           <div className="grid md:grid-cols-5 gap-6 p-8 bg-card">
             <div className=" flex  justify-center md:col-span-2">
               <div className="aspect-square rounded-full overflow-hidden  bg-gray-700 ">
@@ -37,7 +37,7 @@ export default function AboutMe2() {
                 results.
               </p>
               <div className="grid grid-cols-2 gap-4">
-                <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-xl">
+                <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-xl flex flex-col justify-center">
                   <h3 className="font-bold">Birth year</h3>
                   <p className="text-sm text-gray-500">2005</p>
                 </div>
