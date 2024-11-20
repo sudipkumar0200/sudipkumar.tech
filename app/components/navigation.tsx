@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-scroll";
 
-const Navigation= () => {
+const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
@@ -22,24 +23,21 @@ const Navigation= () => {
         <div className="flex items-center justify-between h-10">
           {/* Logo */}
           <div className="flex-shrink-0 text-xl font-bold animate-plus">
-            <a  className="text-2xl font-bold animate-plus">
-              sudipkumar.tech
-            </a>
+            <Link  to="home" spy={true} smooth={true} duration={500} className="text-2xl font-bold animate-plus">sudipkumar.tech</Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-12">
             {navLinks.map((link, index) => (
-              <a
+              <Link
                 key={link.href}
-                href={`#${link.href
-
-                }`}
-                className="nav-item hover:text-primary transition-colors "
+                to={`${link.href}`}
+                spy={true} smooth={true} duration={700} activeClass="active" offset={50}
+                className="nav-item hover:text-primary transition-colors active:text-primary "
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
 
