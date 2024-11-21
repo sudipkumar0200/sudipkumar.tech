@@ -2,7 +2,7 @@
 import { ArrowDownIcon, Github, Linkedin} from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "../components/ui/button";
-const resumePath = "/backendResume.pdf";
+const resumePath = "/SudipResume.pdf";
 import { motion } from "framer-motion";
 
 const languages = [
